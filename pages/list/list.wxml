@@ -1,0 +1,11 @@
+
+<import src="../../wxParse/wxParse.wxml"/>
+
+<!--list.wxml-->
+<view class="container">
+  <view class="news-item-container">
+    <navigator>
+        <rich-text nodes="{{list}}"></rich-text>
+    </navigator>
+  </view>
+</view>

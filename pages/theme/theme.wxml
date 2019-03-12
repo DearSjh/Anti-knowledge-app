@@ -1,0 +1,15 @@
+<!--theme.wxml-->
+<view class="container">
+    <navigator class="card" url="../list/list?id={{item.news_id}}&title={{item.title}}"  wx:for="{{list}}" wx:key="{{key}}">
+        <image src="{{item.thumbnail}}" class="card-image" bindload="imageLoad" style="width:{{ images[index].width }}rpx; height:{{ images[index].height }}rpx;" data-index="{{ index }}"></image>
+        <view class="card-content">
+            <view>
+                <text class="card-title">{{item.title}}</text>
+            </view>
+            <view>
+                <text class="card-desc">{{item.description}}</text>
+            </view>
+        </view>
+    </navigator>
+    
+</view>
