@@ -1,9 +1,13 @@
-This is a small program system that imitates the daily app.
+这是一个模仿日常应用的小程序系统。
 
-Which calls the daily daily and the popular daily report two interfaces
 
-Add more buttons on the homepage to refresh more daily information.
 
-On the details page
-<rich-text nodes="{{xxx}}"></rich-text>
-Tags can parse html tags for view display
+哪一个调用日报和流行日报两个接口
+
+
+
+在主页上添加更多的按钮来刷新更多的日常信息。
+
+
+
+在详细页面标签可以解析html标签的视图显示
